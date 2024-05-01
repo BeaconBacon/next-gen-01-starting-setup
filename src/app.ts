@@ -39,3 +39,8 @@ const add = (...numbers: number[]) => {
 
 const addedNumbers = add(5, 10, 2, 3.7);
 console.log(addedNumbers);
+
+
+
+const [hobby1, hobby2, ... remainingHobbies] = hobbies;
+
